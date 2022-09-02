@@ -7,18 +7,9 @@ Hashed Url Decryption
 <h3><button class="bi bi-arrow-down btn-outline-danger" id="createEndPoint_Arrow" onclick="ShowOrHide('createEndPoint_Div');"></button> Create End Point Map</h3>
 <div id="createEndPoint_Div" style="display:none;">
 
-    <code>
 
         endpoints.Map("SetPassword", new SetPasswordHandler().Handler());
 
-    </code>
-    <br />
-    <span>
-        <b class="text-danger">-</b>
-        U ll use an action named <b>"SetPassword"</b>
-        then <b>SetPasswordHandler</b> class ll be handle this request with out Controller based.
-    </span>
-    <hr />
 </div>
 <h3><button class="bi bi-arrow-down btn-outline-danger" id="workWithBCrypt_Arrow" onclick="ShowOrHide('workWithBCrypt_Div');"></button> How to work with BCrypt</h3>
 <div class="pre-scrollable" id="workWithBCrypt_Div" style="display:none;">
